@@ -1,0 +1,20 @@
+
+.certificate{
+    padding: 0rem 8%;
+
+    @media screen and (max-width:600px) {
+        padding: 0rem 8px; 
+    }
+}
+
+.item {
+    transition: .5s ease-in-out;
+
+    img{
+        border-radius: 8px;
+    }
+}
+
+.item:hover {
+    filter: brightness(80%);
+}
